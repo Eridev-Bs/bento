@@ -45,10 +45,46 @@ export default function Home() {
           </p>
           <div className="flex items-center w-full gap-2">
             <p className="h-[2px] bg-gray-500 flex-1"></p>
-            <h1 className="whitespace-nowrap text-lg font-bold">Redes</h1>
+            <h1 className="whitespace-nowrap text-lg font-bold">Contactame</h1>
             <p className="h-[2px] bg-gray-500 flex-1"></p>
           </div>
-          {/*agregar redes sociales*/}
+          <div className="space-y-4 mt-5 text-center">
+            <button className="relative w-full text-center flex items-center justify-center gap-2 p-3 rounded-lg text-white shadow-[inset_0_4px_8px_rgba(255,255,255,0.2)] hover:shadow-[0_0_15px_rgba(255,255,255,0.8)] transition-shadow hover:filter hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
+              <Image
+                src="/github.svg"
+                alt="GitHub"
+                width={24}
+                height={24}
+                className="invert"
+              />
+              Github
+            </button>
+            <button className="relative w-full text-center flex items-center justify-center gap-2 p-3 rounded-lg text-white shadow-[inset_0_4px_8px_rgba(255,255,255,0.2)] hover:shadow-[0_0_15px_rgba(255,255,255,0.8)] transition-shadow hover:filter hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
+              <Image
+                src="/portf.svg"
+                alt="Portafolio"
+                width={24}
+                height={24}
+                className="invert"
+              />
+              Portafolio
+            </button>
+            <button className="relative w-full text-center flex items-center justify-center gap-2 p-3 rounded-lg text-white shadow-[inset_0_4px_8px_rgba(255,255,255,0.2)] hover:shadow-[0_0_15px_rgba(255,255,255,0.8)] transition-shadow hover:filter hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
+              <Image
+                src="/Mail.svg"
+                alt="Mail"
+                width={24}
+                height={24}
+                className="invert"
+              />
+              Mail
+            </button>
+          </div>
+          <div className="flex items-center w-full gap-2 mt-5">
+            <p className="h-[2px] bg-gray-500 flex-1"></p>
+            <h1 className="whitespace-nowrap text-lg font-bold"> Creado por benjamin sequeida </h1>
+            <p className="h-[2px] bg-gray-500 flex-1"></p>
+          </div>
         </div>
       </div>
     </>
