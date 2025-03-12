@@ -60,7 +60,7 @@ export default function Home() {
             <Button href="https://github.com/Eridev-Bs" icon="/github.svg" text="Github" />
             <Button href="https://tuportafolio.com" icon="/portf.svg" text="Portafolio" />
             <Button href="mailto:benjaminsequeida95@gmail.com" icon="/mail.svg" text="Mail" />
-            <Button href="file:///C:/Users/work/Downloads/benjamin%20sequeida.pdf" icon="pdf.svg" text="CV" />
+            <Button href="/benjamin_sequeida.pdf" icon="pdf.svg" text="CV" />
           </div>
 
           {/* Línea final */}
