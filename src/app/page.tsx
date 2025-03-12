@@ -59,8 +59,7 @@ export default function Home() {
           <div className="space-y-4 mt-5 text-center">
             <Button href="https://github.com/Eridev-Bs" icon="/github.svg" text="Github" />
             <Button href="https://tuportafolio.com" icon="/portf.svg" text="Portafolio" />
-            <Button href="mailto:benjaminsequeida95@gmail.com" icon="/Mail.svg" text="Mail" />
-            {/* Botón para abrir el PDF */}
+            <Button href="mailto:benjaminsequeida95@gmail.com" icon="/mail.svg" text="Mail" />
             <Button href="" icon="pdf.svg" text="CV" />
           </div>
 
