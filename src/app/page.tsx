@@ -71,13 +71,13 @@ export default function Home() {
           </div>
           <div className="flex items-center justify-center gap-10 mt-5">
             <button onClick={() => window.open("https://www.instagram.com/eride_ben/", "_blank")}>
-              <Image src="/instagram.svg" alt="Instagram" width={24} height={24} className="invert hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] transition-all" />
+              <Image src="/instagram.svg" alt="Instagram" width={24} height={24} className="invert-0 dark:invert hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] transition-all" />
             </button>
             <button onClick={() => window.open("https://www.linkedin.com/in/benjamin-sequeida-477b57205/", "_blank")}>
-              <Image src="/linkedin.svg" alt="linkedin" width={24} height={24} className="invert hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] transition-all" />
+              <Image src="/linkedin.svg" alt="linkedin" width={24} height={24} className="invert-0 dark:invert hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] transition-all" />
             </button>
             <button onClick={() => window.open("https://x.com/ErideTHK", "_blank")}>
-              <Image src="/x.svg" alt="x" width={24} height={24} className="invert hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] transition-all" />
+              <Image src="/x.svg" alt="x" width={24} height={24} className="invert-0 dark:invert hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] transition-all" />
             </button>
           </div>
         </div>
@@ -90,11 +90,11 @@ export default function Home() {
 const Button = ({ href, icon, text }: { href: string; icon: string; text: string }) => (
   <button
     onClick={() => window.open(href, "_blank")}
-    className="relative w-full text-center flex items-center justify-center gap-2 p-3 rounded-lg text-white 
+    className="relative w-full text-center flex items-center justify-center gap-2 p-3 rounded-lg text-black dark:text-white 
                shadow-[inset_0_4px_8px_rgba(255,255,255,0.2)] transition-all
                hover:shadow-[0_0_18px_rgba(255,255,255,0.9)] hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"
   >
-    <Image src={icon} alt={text} width={24} height={24} className="invert" />
+    <Image src={icon} alt={text} width={24} height={24} className="invert-0 dark:invert" />
     {text}
   </button>
 );
