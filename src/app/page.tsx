@@ -66,7 +66,7 @@ export default function Home() {
               text="Github"
             />
             <Button
-              href="https://tuportafolio.com"
+              href="https://portfolio-snowy-kappa-50.vercel.app/"
               icon="/portf.svg"
               text="Portafolio"
             />
